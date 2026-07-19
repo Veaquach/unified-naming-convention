@@ -1671,7 +1671,7 @@ local failureLine = (Fails == 0 and "🔴 NO tests failed!") or ("🔴 Failed " 
 
 print(summaryLine)
 print(failureLine)
-print("Tests cheesed with externality checks: 4\n(does not matter if you are on an internal like Volt, Synapse Z, Cosmic, Madium, Real, Potassium etc.")
+print("Tests cheesed with externality checks: 4\n(does not matter if you are on an internal like Volt, Synapse Z, Cosmic, Madium, Real, Potassium etc)")
 if writefile then
     table.insert(fileOutput, summaryLine)
     table.insert(fileOutput, failureLine)
