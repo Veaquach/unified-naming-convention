@@ -1668,6 +1668,7 @@ local SuccessRate = TotalTests > 0 and (Passes / TotalTests) * 100 or 0
 
 local summaryLine = "\n\n            🟢 Tested with a " .. string.format("%.2f", SuccessRate) .. "% success rate (" .. Passes .. " out of " .. TotalTests .. ")"
 local failureLine = (Fails == 0 and "🔴 NO tests failed!") or ("🔴 Failed " .. Fails .. " tests.")
+local executorLine = "Executor: " .. identifyexecutor()
 
 print(summaryLine)
 print(failureLine)
