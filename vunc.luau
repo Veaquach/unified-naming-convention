@@ -1672,6 +1672,7 @@ local executorLine = "Executor: " .. identifyexecutor()
 
 print(summaryLine)
 print(failureLine)
+print(executorLine)
 print("Tests cheesed with externality checks: 4\n(does not matter if you are on an internal like Volt, Synapse Z, Cosmic, Madium, Real, Potassium etc)")
 if writefile then
     table.insert(fileOutput, summaryLine)
